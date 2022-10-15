@@ -12,6 +12,7 @@
         header{
 
             color: yellow;
+            
 
 
         }
@@ -20,13 +21,13 @@
             text-align: justify;
             color: whitesmoke;
             font-family: sans-serif ;
-
-
+            border: white;
         }
     </style>
 </head>
 
 <body>
+    
     <header>
         <h1> La Empanaderia </h1>
         <img src="./empanadas espaciales.jpg" alt=" Logo empanadas expaciales">
@@ -43,10 +44,13 @@
                 <li> Aborrajado .................... $6.000 </li> <input type="number" id="aborrajados1" name="Aborrjados1"><br>
                 <li> Papa Aborrajada .................... $6.000 </li> <input type="number" id="papa1" name="papa1"><br>
                 
-               <li> <input   type="text"> Observaciones a su pedido <div class="d-none d-sm-block">
                
-                </div> </li>
             </ul>
+
+
+                <h3> Observaciones al pedido inicial</h3>
+                <input   border="50px" border-color="white" type="text">  
+
 
         <h3> Combos </h3>
             <ul>
@@ -61,8 +65,80 @@
             <dt>4 empanadas de carne + 4 de pollo + gaseosa ........... $ 30.000</dt>
             <dd> Para dos personas</dd>
         </dl>
-    </section>
+    </section> 
 
+    <h2>Pedidos</h2>
+    <h3> Haz tu pedido a domicilio</h3>
+<form action="">
+
+        <p> <b>Elige tu sede</b> </p>
+
+
+    <select  name="Sedes1" id="Sedes1">
+
+        
+
+        <option  value="none"></option>
+
+
+        <option  value="Centro">Centro</option>
+        <option value="Sur">Sur</option>
+        <option value="Norte">Norte</option>
+
+    </select>
+
+        <p> <b>Elige Entradas</b> </p> <br>
+        <input type="checkbox" name="marranitas1" id="marranitas1">
+        <label for="marranitas1"></label>Marranitas<br>
+        <input type="number" placeholder="¿Cuantos?" id="marranitasNumber" name="AborrajadoNuber">
+        <br>
+        
+        <input type="checkbox" name="aborrajados1 " id="aborrajados1">
+        <label for="aborrajados1"></label>Aborrajado<br>
+        <input type="number" placeholder="¿Cuantos?" id="aborrajadoNumber" name="aborrajadoNumber">
+        <br>
+
+        <input type="checkbox" name="papa1" id="papa1">
+        <label for="papa1"></label> Papa  Aborrajada<br>
+        <input type="number" placeholder="¿Cuantos?" id="papasNumber" name="papasNumber">
+        <br>
+
+     <p> <b>Elige  Las Salsa</b> </p> <br>
+
+     <input type="radio" name="salsa1" id="salsa1">
+     <label for="salsa1"> Salsa de Ajo</label>
+     <input type="radio" name="salsa1" id="salsa1">
+     <label for="salsa1"> Salsa de rosada</label>
+     <input type="radio" name="salsa1" id="salsa1">
+     <label for="salsa1"> Salsa tomate</label>
+     <input type="radio" name="salsa1" id="salsa1">
+     <label for="salsa1"> Salsa de piña</label>
+     <input type="radio" name="salsa1" id="salsa1">
+     <label for="salsa1"> Salsa picante</label><br>
+
+     <br>
+     <p> <b>Elige  La Bebida</b> </p> <br>
+
+     <input type="radio" name="gaseosa" id="gaseosa">
+     <label for="gaseosa"> Manzana</label>
+     <input type="radio" name="gaseosa" id="gaseosa">
+     <label for="gaseosa"> Uva</label>
+     <input type="radio" name="gaseosa" id="gaseosa">
+     <label for="gaseosa"> Coca-cola</label>
+     <input type="radio" name="gaseosa" id="gaseosa">
+     <label for="gaseosa"> Colombiana</label>
+     <input type="radio" name="gaseosa" id="gaseosa">
+     <label for="gaseosa">  Quatro </label>
+
+    <br>
+
+
+
+
+
+</form>
+   
+    <p></p>
     <footer>
         <h3> Ubicación </h3>
         <table border="5px" border-color="white">
@@ -79,12 +155,29 @@
                     Some Word
                     </div>" height="100" style="border:100;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </td>
                 <td> <a href="tel:+573232292825">Llamar ahora </a> </td>
-                <td> lunes a viernes desde las 9:00 am hasta las 03:00 am</td>
+                <td> Lunes a Viernes desde las 9:00 am hasta las 03:00 am</td>
             
             </tr>
             <tr>
-                
+                <td> Empanaderia del Sur</td>
+                <td> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930.218509427083!2d-76.54066917137104!3d3.457846578655714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a7eb64ac9117%3A0x25e806522fdb14e0!2sCentro%20de%20Cali!5e0!3m2!1ses!2sco!4v1665801541612!5m2!1ses!2sco" width="<div class="d-none d-sm-block">
+                    Some Word
+                    </div>" height="100" style="border:100;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </td>
+                <td> <a href="tel:+573232292825">Llamar ahora </a> </td>
+                <td> Lunes a Viernes desde las 9:00 am hasta las 03:00 am</td>
+            
             </tr>
+
+            <tr>
+                <td> Empanaderia del Norte</td>
+                <td> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930.218509427083!2d-76.54066917137104!3d3.457846578655714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a7eb64ac9117%3A0x25e806522fdb14e0!2sCentro%20de%20Cali!5e0!3m2!1ses!2sco!4v1665801541612!5m2!1ses!2sco" width="<div class="d-none d-sm-block">
+                    Some Word
+                    </div>" height="100" style="border:100;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </td>
+                <td> <a href="tel:+573232292825">Llamar ahora </a> </td>
+                <td> Lunes a Viernes desde las 9:00 am hasta las 03:00 am</td>
+            
+            </tr>
+        
 
 
         </table>
