@@ -1,0 +1,45 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.backgroundColor{
+    background-color: skyblue;
+}
+.backgroundOpacity{
+
+    background-color: greenyellow;
+    opacity: 0.8;
+    
+}
+.backgroundImagen{
+    background-image: url(../Launch-X/background1.webp);
+    background-size: cover;
+    
+}
+.backgroundRepeatX{
+    background-image: url(../Launch-X/background2.webp);
+    background-repeat: repeat-x;
+    
+}
+.backgroundRepeatY{
+    background-image: url(../Launch-X/background2.webp);
+    background-repeat: repeat-y;
+}
+.backgroundnoReply{
+    babackground-image: url(../Launch-X/background2.webp);
+    background-repeat: no-repeat;
+    
+}
+.backgroundPosition{
+    background-image: url(../Launch-X/background2.webp);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+    
+}
+.backgroundFull{
+    background-image: url(../Launch-X/background2.webp);
+    background-size: cover;
+    background-position: center;
+    
+}

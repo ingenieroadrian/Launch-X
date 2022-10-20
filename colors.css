@@ -1,0 +1,33 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+.colorRojo{
+    color: red;
+}
+
+.colorRgb{
+    color: rgb(191, 73, 191);
+}
+
+.colorRgba{
+    color: rgba(24, 65,125, 0.5);
+}
+
+.colorHex{
+    color: #bababa;
+}
+
+.colorHsl{
+    color: hsl(112, 78%, 37%);
+}
+
